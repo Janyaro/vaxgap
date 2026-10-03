@@ -165,5 +165,5 @@ Data: DHS data is the property of The DHS Program (ICF) and is subject to its te
 
 ## Author
 
-Your Name, Software Engineering graduate (Mehran University of Engineering and Technology). Interested in machine learning for public health.
+Wasim Akram Janyaro, Software Engineering graduate (Mehran University of Engineering and Technology). Interested in machine learning for public health.
 [LinkedIn] | [Email]
