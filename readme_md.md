@@ -2,7 +2,7 @@
 
 A machine learning pipeline and interactive dashboard that predicts which children aged 12 to 23 months are at risk of **not completing their basic vaccinations**, using Demographic and Health Survey (DHS) data, and explains which factors drive that risk.
 
-The project was inspired by my experience as a polio vaccination volunteer in rural Pakistan, where records were kept on paper and nobody could quickly tell which areas had been missed. The question behind it: *can survey data tell us where a vaccination team should go before the day starts, rather than after it ends?*
+The project was inspired by our experience as polio vaccination volunteers in rural Pakistan, where records were kept on paper and nobody could quickly tell which areas had been missed. The question behind it: *can survey data tell us where a vaccination team should go before the day starts, rather than after it ends?*
 
 > **Important: current status of the data**
 > All results in this repository were produced on the **DHS Program model (practice) dataset**, which is synthetic and does **not** represent any real country. The numbers below show that the pipeline works. They are **not findings about Pakistan**. The same code is being applied to the Pakistan DHS 2017-18 Children's Recode, and this README will be updated when those results are available.
@@ -131,7 +131,7 @@ The risk score comes from a class-weighted model, so it is **not a literal proba
 git clone <this-repo-url>
 cd <repo-folder>
 python -m venv venv
-venv\Scripts\activate          # Windows (use: source venv/bin/activate on Linux/Mac)
+venv\Scripts\activate      # Windows (use: source venv/bin/activate on Linux/Mac)
 pip install -r requirements.txt
 ```
 
@@ -163,7 +163,7 @@ If you switch to the Pakistan data, set `DATA_IS_PRACTICE = False` in `app.py`, 
 Code: choose a licence (for example MIT) and add a `LICENSE` file.
 Data: DHS data is the property of The DHS Program (ICF) and is subject to its terms of use. Cite the survey when publishing results.
 
-## Author
+## Authors & Collaborators
 
-Wasim Akram Janyaro, Software Engineering graduate (Mehran University of Engineering and Technology). Interested in machine learning for public health.
- [waseemjanyaro@gmail.com]
+* **Wasim Akram Janyaro** – Software Engineering graduate (Mehran University of Engineering and Technology). [waseemjanyaro@gmail.com]
+* **Rizwan Rafique** – Co-developer & Collaborator. – Software Engineering graduate (Mehran University of Engineering and Technology). [palijorizwanrafique746@gmail.com]
