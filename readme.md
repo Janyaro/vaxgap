@@ -163,7 +163,7 @@ If you switch to the Pakistan data, set `DATA_IS_PRACTICE = False` in `app.py`, 
 Code: choose a licence (for example MIT) and add a `LICENSE` file.
 Data: DHS data is the property of The DHS Program (ICF) and is subject to its terms of use. Cite the survey when publishing results.
 
-## Authors & Collaborators
+## Authors
 
 * **Wasim Akram Janyaro** – Software Engineering graduate (Mehran University of Engineering and Technology). [waseemjanyaro@gmail.com]
-* **Rizwan Rafique** – Co-developer & Collaborator. – Software Engineering graduate (Mehran University of Engineering and Technology). [palijorizwanrafique746@gmail.com]
+* **Rizwan Rafique** – Software Engineering graduate (Mehran University of Engineering and Technology). [palijorizwanrafique746@gmail.com]
